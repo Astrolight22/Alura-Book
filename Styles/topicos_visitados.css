@@ -6,7 +6,7 @@
 .banner_topicos {
     border-top: 1em solid white;
     background: var(--cor_azul_gradiente);
-    display: inline-block;
+    display: inline-flexbox;
     align-items: center;
     text-align: center;
 }

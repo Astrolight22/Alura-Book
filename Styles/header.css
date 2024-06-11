@@ -63,3 +63,41 @@
 .checkbox {
     display: none;
 }
+
+.titulo_menu {
+    display: none;
+}
+
+.opcoes {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+   
+    .titulo_menu, .titulo_menu_negrito {
+        font-family: var(--font_titulo_header);
+        font-size: 30px;
+        color: black;
+    }
+   
+    .titulo_menu {
+        font-weight: 400;
+        display: block;
+        padding: 0.2em 0 0 0.5em;
+    }
+
+    .titulo_menu_negrito {
+        font-weight: 700;
+    }
+
+    .opcoes {
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+    }
+
+    .opcoes_item {
+        margin-right: 1.5em;
+    }
+    
+}
