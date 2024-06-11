@@ -1,0 +1,42 @@
+.container_news {
+    padding: 1.5em;
+    background-color: var(--cor_branco);
+}
+
+.news_titulo {
+    font-size: 1.3em;
+    font-weight: 500;
+    background: var(--cor_azul_gradiente);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.news_conteudo {
+    font-size: 1em;
+    background: var(--cor_azul_gradiente);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 1.5em;
+    padding: 1em 0;
+}
+
+.news_search {
+    border-radius: 1.5em;
+    border: 1px solid #002F52;
+    width: 100%;
+    padding: 0.63em 1.5em;
+    background: transparent;
+}
+
+.news_search::placeholder {
+    color: var(--cor_azul_pretroleo);
+    font-family: var(--font_principal);
+    font-weight: 400;
+    font-size: 1em;
+    background: url(../Assets/Email.svg) no-repeat;
+    background-position: 1em;
+    text-align: start;
+    padding-left: 3em;
+}

@@ -1,0 +1,26 @@
+.blanc_space {
+    height: 1em;
+    background-color: var(--cor_branco);
+}
+
+.banner_topicos {
+    border-top: 1em solid white;
+    background: var(--cor_azul_gradiente);
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+}
+
+.banner_topicos_titulo {
+    font-size: 1em;
+    font-weight: 300;
+    color: var(--cor_branco);
+    padding: 1.3em;
+}
+.container_botoes {
+    display: flex;
+    flex-wrap:wrap-reverse;
+    gap: 1em;
+    justify-content: center;
+    padding: 0 .8em 1.5em .8em;
+}
