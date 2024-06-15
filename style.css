@@ -13,6 +13,9 @@
     --cor_branco: #FFFFFF;
     --cor_laranja: #EB9B00;
     --cor_azul_pretroleo: #002F52;
+    --cinza_claro: #f9f9f9;
+    --cor_cinza: #858585;
+    --cor_cinza_escuro: #474646;
     --cor_azul_gradiente: linear-gradient(98deg, #002F52 35.49%, #326589 165.37%);
     --font_principal: "Poppins", sans-serif;
     --font_titulo_header: "Josefin Sans", sans-serif;

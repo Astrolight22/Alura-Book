@@ -1,7 +1,70 @@
+footer {
+    border-top: 1px solid #858585;
+    background-color: var(--cinza_claro);
+}
+
 .container_footer {
     font-size: 1em;
+    font-weight: 400;
     color: black;
     padding: 1.1em 0 1.5em 1.5em;
-    background-color: var(--cor_branco);
-    border-top: 1px solid #858585;
+}
+
+.footer_titulo_grupos {
+    display: none;
+}
+.footer_lista {
+    display: none;
+}
+.footer_lista_itens {
+    display: none;
+}
+.footer_lista_imagens {
+    display: none;
+}
+
+
+@media screen and (min-width: 1024px) {
+    footer {
+        display: flex;
+        background-color: var(--cinza_claro);
+        gap: 2em;
+        padding: 1em 5em 0 2em;
+        justify-content: space-between;
+    }
+
+    .container_footer {
+        font-size: 1.5em;
+        font-weight: 400;
+        color: black;
+        padding: 0;
+    }
+    .footer_titulo_grupos {
+        display: flex;
+        font-size: 0.9em;
+        font-weight: 400;
+        color: var(--cor_cinza);
+        padding-bottom: 1em;
+    }
+    .footer_lista {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1em;
+        margin-bottom: 4em;
+        list-style: none;
+    }
+    .footer_lista_itens {
+        display: flex;
+        align-items: center;
+        gap: 1em;
+        text-decoration: none;
+        font-size: 0.9em;
+        font-weight: 400;
+        color: var(--cor_cinza_escuro);
+    }
+    .footer_lista_imagens {
+        display: unset;
+    }
+    
 }

@@ -24,13 +24,25 @@
             <li class="lista_menu_item"><a href="#" class="lista_menu_link">Business</a></li>
             <li class="lista_menu_item"><a href="#" class="lista_menu_link">Design & UX</a></li>
         </UL>
-        <img src="Assets/Logo.svg" alt="Logo AluraBooks.">
+        <img src="Assets/Logo.svg" alt="Logo AluraBooks." class="logo_alurabooks">
         <h1 class="titulo_menu"><b class="titulo_menu_negrito">Alura</b>Books</h1>
     </div>
     <ul class="opcoes">
-        <li class="opcoes_item">Categorias</li>
-        <li class="opcoes_item"><a class="opcoes_links">Favoritos</a></li>
-        <li class="opcoes_item"><a class="opcoes_links">Minha Estante</a></li>
+        <input type="checkbox" id="menu_op" class="checkbox">
+        <label for="menu_op" >          
+            <li class="opcoes_item">Categorias</li>
+        </label>
+        <UL class="lista_menu_op">
+            <li class="lista_menu_item"><a href="#" class="lista_menu_link">Programação</a></li>
+            <li class="lista_menu_item"><a href="#" class="lista_menu_link">Front-end</a></li>
+            <li class="lista_menu_item"><a href="#" class="lista_menu_link">Infraestrutura</a></li>
+            <li class="lista_menu_item"><a href="#" class="lista_menu_link">Business</a></li>
+            <li class="lista_menu_item"><a href="#" class="lista_menu_link">Design & UX</a></li>
+        </UL>
+        <li class="opcoes_item"><a href="#" class="opcoes_links">Favoritos</a></li>
+        <li class="opcoes_item"><a href="#" class="opcoes_links">Minha Estante</a></li>
+        <a href="#"><img src="Assets/Compras.svg" class="opcoes_imagem" alt="Suas compras."></a>
+        <a href="#"><img src="Assets/Usuario.svg" class="opcoes_imagem" alt="Perfil de usuario."></a>
     </ul>
 
     <div class="container">
@@ -140,14 +152,47 @@
 
 <!-- Newsletter -->
         <div class="container_news">
-            <h3 class="news_titulo">Fique por dentro das novidades!</h3>
-            <p class="news_conteudo">Atualizações de e-books, novos livros, promoções e outros.</p>
+            <div>
+                <h3 class="news_titulo">Fique por dentro das novidades!</h3>
+                <p class="news_conteudo">Atualizações de e-books, novos livros, promoções e outros.</p>
+            </div>
             <input type="search" class="news_search" placeholder="Cadastre seu e-mail">
         </div>
     </section>
 
 <footer>
     <h2 class="container_footer">Grupo Alura</h2>
+    <ul class="footer_lista">
+        <h3 class="footer_titulo_grupos"> Educação</h3>
+        <li><a href="#" class="footer_lista_itens"><img src="Assets/Caelum.svg" alt="Logo Caelum" class="footer_lista_imagens">Caelum</a></li>
+        <li><a href="#" class="footer_lista_itens"><img src="Assets/CasaDoCodigo.svg" alt="Logo Casa do Código" class="footer_lista_imagens">Casa do Código</a></li>
+    </ul>
+    <ul class="footer_lista">
+        <h3 class="footer_titulo_grupos">Educação Online</h3>
+        <li><a href="#" class="footer_lista_itens"><img src="Assets/Alura.svg" alt="Logo Alura" class="footer_lista_imagens">Alura</a></li>
+        <li><a href="#" class="footer_lista_itens"><img src="Assets/AluraEmpresas.svg" alt="Logo Alura Empresas" class="footer_lista_imagens">Alura Para Empresas</a></li>
+        <li><a href="#" class="footer_lista_itens"><img src="Assets/AluraLATAM.svg" alt="Logo Alura Latam" class="footer_lista_imagens">Aluram LATAM</a></li>
+        <li><a href="#" class="footer_lista_itens"><img src="Assets/AluraStart.svg" alt="Logo Alura Start" class="footer_lista_imagens">Alura Start</a></li>
+        <li><a href="#" class="footer_lista_itens"><img src="Assets/MusicDot.svg" alt="Logo MusicDot" class="footer_lista_imagens">MusicDot</a></li>
+        <li><a href="#" class="footer_lista_itens"><img src="Assets/AluraLingua.svg" alt="Logo Alura Lingua" class="footer_lista_imagens">Alura Língua</a></li>
+        <li><a href="#" class="footer_lista_itens"><img src="Assets/PM3.svg" alt="Logo PM3" class="footer_lista_imagens">PM3</a></li>
+    </ul>
+    <ul class="footer_lista">
+        <h3 class="footer_titulo_grupos">Comunidade</h3>
+        <li><a href="#" class="footer_lista_itens"><img src="Assets/HipstersTech.svg" alt="Logo HipstersTech" class="footer_lista_imagens">Hipsters ponto Tech</a></li>
+        <li><a href="#" class="footer_lista_itens"><img src="Assets/ScubaDev.svg" alt="Logo ScubaDev" class="footer_lista_imagens">Scuba Dev</a></li>
+        <li><a href="#" class="footer_lista_itens"><img src="Assets/LayersTech.svg" alt="Logo LayersTech" class="footer_lista_imagens">Layers ponto Tech</a></li>
+        <li><a href="#" class="footer_lista_itens"><img src="Assets/LikeABoss.svg" alt="Logo LikeABoss" class="footer_lista_imagens">Like a Boss</a></li>
+        <li><a href="#" class="footer_lista_itens"><img src="Assets/CarreiraSemFronteira.svg" alt="Logo Carreira sem Fronteiras" class="footer_lista_imagens">Carreira sem Fronteiras</a></li>
+        <li><a href="#" class="footer_lista_itens"><img src="Assets/HipstersJobs.svg" alt="Logo HipstersJobs" class="footer_lista_imagens">Hipsters ponto Jobs</a></li>
+        <li><a href="#" class="footer_lista_itens"><img src="Assets/GUJ.svg" alt="Logo GUJ" class="footer_lista_imagens">GUJ</a></li>
+    </ul>
+
+
+
+
+
+
 </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
