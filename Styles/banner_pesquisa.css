@@ -42,4 +42,12 @@
     .banner_pesquisa {
         width: 60%;
     }
+
+    .banner_titulo {
+        font-size: 2em;
+    }
+
+    .banner_pesquisa::placeholder {
+        font-size: 1em;
+    }
 }

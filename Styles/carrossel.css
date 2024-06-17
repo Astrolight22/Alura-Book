@@ -21,3 +21,10 @@
     margin: 0.6em 0;
     --swiper-pagination-color: var(--cor_azul_gradiente);
 }
+
+@media screen and (min-width: 1024px) {
+    .carrossel_titulo {
+        font-size: 1.67em;
+    }
+    
+}
