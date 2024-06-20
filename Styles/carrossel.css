@@ -27,3 +27,20 @@
         font-size: 1.67em;
     }
 }
+
+@media screen and (min-width: 1728px) {
+    .carrossel{
+        display: flex;
+        margin: 0 10vw 3em 10vw;
+        align-items: center;
+        gap: 4em;
+    }
+    .swiper {
+        width: 80%;
+    }
+
+    .swiper-pagination {
+        margin: 1em;
+    }
+
+}

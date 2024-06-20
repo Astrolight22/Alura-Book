@@ -73,6 +73,10 @@
     display: none;
 }
 
+.opcoes_item_dk {
+    display: none;
+}
+
 @media screen and (min-width: 1024px) {
    
     .titulo_menu, .titulo_menu_negrito {
@@ -136,4 +140,47 @@
     .checkbox:checked ~ .lista_menu {
         display: none;
     }
+
+    .opcoes_dk {
+        display: flex;
+    }
+
+    .menu_dk {
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .opcoes{
+        display: flex;
+        text-align: start;
+        gap: 30em;
+    }
+   
+   
+    .opcoes_item_dk {
+        display: flex;
+    }
+
+    .header_dk{
+        display:  flex;
+        text-decoration: none;
+        color: black;
+        font-size: 1.30em;
+        font-weight: 400;
+    }
+
+    .opcoes_imagem {
+        padding: 1em;
+    }
+
+    .opcoes_dk {
+        display: flex;
+    }
+
+    .menu_dk {
+        display: flex;
+    }
+
+
 }

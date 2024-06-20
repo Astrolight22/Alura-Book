@@ -68,3 +68,13 @@ footer {
     }
     
 }
+
+@media screen and (min-width: 1724px) {
+    footer {
+        justify-content: space-around;
+    }
+    
+    .footer_lista{
+        border-left: 0.1em solid var(--cor_cinza);
+    }
+}

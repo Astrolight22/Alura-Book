@@ -63,3 +63,13 @@
         margin: 1.25em 14em;
     }
 }
+
+
+
+@media screen and (min-width: 1724px) {
+    .card {
+        margin: 4em 1em 1.25em 1em;
+        width: 70%;
+}
+    
+}

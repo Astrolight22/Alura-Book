@@ -54,3 +54,14 @@
         height: 40px;
     }
 }
+
+
+@media screen and (min-width: 1724px) {
+    .container_news {
+        padding: 0 30em;
+    }
+
+    .news_search {
+        width: 50%;
+    }
+}

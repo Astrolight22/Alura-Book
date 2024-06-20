@@ -45,3 +45,9 @@
     }
     
 }
+
+@media screen and (min-width: 1724px) {
+    .banner_topicos {
+        padding: 0 30em;
+    }
+}
